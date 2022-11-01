@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int age;
+    cin>>age;
+    if(age<18)
+    {
+        cout<<"You are not eligible"<<endl;
+         cout<<"you aren't borned yet"<<endl;
+    }
+    else if(age==18){
+
+        cout<<"you are a kid"<<endl;
+
+    }
+    else if(age>18){
+        cout<<"Most welcom"<<endl;
+    }
+   
+    
+    return 0;
+
+}
